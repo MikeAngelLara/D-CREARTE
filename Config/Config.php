@@ -5,7 +5,7 @@ const USER = "root";
 const PASS = "";
 const DB = "tienda_virtual";
 const CHARSET = "charset=utf8";
-const TITLE = "Tienda virtual";
+const TITLE = "D´CREARTE";
 const MONEDA = "USD";
 const CLIENT_ID = "";
 ?>

@@ -5,7 +5,7 @@
             <div class="row align-items-center py-5">
                 <div class="col-md-8 text-white">
                     <h1 style="font-size: 70px;">Nosotros</h1>
-                    <p>
+                    <p style="text-align: justify;">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -63,7 +63,9 @@
     </section>
     <!-- End Section -->
 
+    <!--      Brands por si en algun momento se necesitan            -->
     <!-- Start Brands -->
+    <!--
     <section class="bg-light py-5">
         <div class="container my-4">
             <div class="row text-center py-3">
@@ -76,21 +78,19 @@
                 </div>
                 <div class="col-lg-9 m-auto tempaltemo-carousel">
                     <div class="row d-flex flex-row">
-                        <!--Controls-->
+                        
                         <div class="col-1 align-self-center">
-                            <a class="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="prev">
+                            <a class="h1" href="#multi-item-example" role="button" data-bs-slide="prev">
                                 <i class="text-light fas fa-chevron-left"></i>
                             </a>
                         </div>
-                        <!--End Controls-->
+                        
 
-                        <!--Carousel Wrapper-->
+                        
                         <div class="col">
-                            <div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="templatemo-slide-brand" data-bs-ride="carousel">
-                                <!--Slides-->
+                            <div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="multi-item-example" data-bs-ride="carousel">
                                 <div class="carousel-inner product-links-wap" role="listbox">
 
-                                    <!--First slide-->
                                     <div class="carousel-item active">
                                         <div class="row">
                                             <div class="col-3 p-md-5">
@@ -107,9 +107,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!--End First slide-->
 
-                                    <!--Second slide-->
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-3 p-md-5">
@@ -126,9 +124,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!--End Second slide-->
 
-                                    <!--Third slide-->
                                     <div class="carousel-item">
                                         <div class="row">
                                             <div class="col-3 p-md-5">
@@ -145,26 +141,22 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!--End Third slide-->
 
                                 </div>
-                                <!--End Slides-->
                             </div>
                         </div>
-                        <!--End Carousel Wrapper-->
 
-                        <!--Controls-->
                         <div class="col-1 align-self-center">
-                            <a class="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="next">
+                            <a class="h1" href="#multi-item-example" role="button" data-bs-slide="next">
                                 <i class="text-light fas fa-chevron-right"></i>
                             </a>
                         </div>
-                        <!--End Controls-->
+
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--End Brands-->
 
     <?php include_once 'Views/template-principal/footer.php';?>

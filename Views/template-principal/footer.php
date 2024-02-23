@@ -14,7 +14,7 @@
                 </div>
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light text-center">Temas</h2>
+                    <h2 class="h2 text-light border-bottom pb-3 border-light text-center">Categorías</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li><a class="text-decoration-none" href="#">---------</a></li>
                         <li><a class="text-decoration-none" href="#">---------</a></li>
@@ -64,7 +64,7 @@
                 <div class="row pt-2">
                     <div class="col-12">
                         <p class="text-center text-light">
-                            Copyright &copy; 2024 | Tu Ruta Comercial 
+                            Copyright &copy; 2024 | D´CREARTE 
                         </p>
                     </div>
                 </div>
@@ -75,9 +75,10 @@
     <!-- End Footer -->
 
     <!-- Start Script -->
-    <script src="assets/js/jquery-1.11.0.min.js"></script>
-    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/templatemo.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="<?php echo BASE_URL; ?>assets/js/jquery-1.11.0.min.js"></script>
+    <script src="<?php echo BASE_URL; ?>assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="<?php echo BASE_URL; ?>assets/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo BASE_URL; ?>assets/js/templatemo.js"></script>
+    <script src="<?php echo BASE_URL; ?>assets/js/custom.js"></script>
+    <script src="<?php echo BASE_URL; ?>assets/js/carrito.js"></script>
     <!-- End Script -->
