@@ -12,7 +12,7 @@
                         <!--Start Controls-->
                         <div class="col-1 align-self-center">
                             <a href="#multi-item-example" role="button" data-bs-slide="prev">
-                                <i class="text-dark fas fa-chevron-left"></i>
+                                <i class="fas fa-chevron-left flecha_detalles"></i>
                                 <span class="sr-only">Previous</span>
                             </a>
                         </div>
@@ -66,39 +66,21 @@
                                 </div>
                                 <!--/.Second slide-->
 
-                                <!--Third slide-->
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="<?php echo BASE_URL; ?>assets/img/product_single_07.jpg" alt="Product Image 7">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="<?php echo BASE_URL; ?>assets/img/product_single_08.jpg" alt="Product Image 8">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="<?php echo BASE_URL; ?>assets/img/product_single_09.jpg" alt="Product Image 9">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--/.Third slide-->
                             </div>
                             <!--End Slides-->
                         </div>
                         <!--End Carousel Wrapper-->
+                        
+                        
                         <!--Start Controls-->
                         <div class="col-1 align-self-center">
                             <a href="#multi-item-example" role="button" data-bs-slide="next">
-                                <i class="text-dark fas fa-chevron-right"></i>
+                                <i class="fas fa-chevron-right flecha_detalles"></i>
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
                         <!--End Controls-->
+
                     </div>
                 </div>
                 <!-- col end -->
@@ -107,17 +89,9 @@
                         <div class="card-body">
                             <h1 class="h2"><?php echo $data['producto']['nombre']; ?></h1>
                             <p class="h3 py-2"><?php echo MONEDA . ' ' . $data['producto']['precio']; ?></p>
-                            <p class="py-2">
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-secondary"></i>
-                                <span class="list-inline-item text-dark">Rating 4.8 | 36 Comments</span>
-                            </p>
                             <ul class="list-inline">
                                 <li class="list-inline-item">
-                                    <h6>Categoria</h6>
+                                    <h6>Categoria:</h6>
                                 </li>
                                 <li class="list-inline-item">
                                     <p class="text-muted"><strong><?php echo $data['producto']['categoria']; ?></strong></p>

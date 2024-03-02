@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700&display=swap");
+
 /*
 
 TemplateMo 559 Zay Shop
@@ -79,7 +81,8 @@ body, ul, li, p, a, label, input, div {
 #template-mo-zay-hero-carousel { background: #efefef !important;}
 /* Accordion */
 .templatemo-accordion a { color: #000;}
-.templatemo-accordion a:hover { color: #333d4a;}
+.templatemo-accordion a:hover { color: #1666cf;}
+.secciones_categorias_tienda{ margin-top: 50px; margin-bottom: 50px;}
 /* Shop */
 .shop-top-menu a:hover { color: #69bb7e !important;}
 /* Product */
@@ -146,6 +149,7 @@ body, ul, li, p, a, label, input, div {
   height: 2.6em;
   line-height: 2.6em;
 }
+
 #tempaltemo_footer ul.footer-icons li:hover {
   background-color: #1666cf;
   transition: .5s;
@@ -167,6 +171,134 @@ body, ul, li, p, a, label, input, div {
   width: 6px;
   height: 6px;
 }
+
+
+/*Preguntas Frecuentes*/
+.accordion {
+    display: flex;
+    flex-direction: column;
+    font-family: "Sora", sans-serif;
+    max-width: 90%;
+    min-width: 320px;
+    margin: 50px auto;
+    margin-bottom: 150px;
+    padding: 0 50px;
+}
+
+.accordion h1 {
+    text-align: center;
+}
+
+.accordion-item {
+    margin-top: 16px;
+    border: 1px solid #fcfcfc;
+    border-radius: 6px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.accordion-item:hover{
+  background-color: #1666cf;
+  color: white;
+  transform: .5s;
+}
+
+.accordion-item .accordion-item-title {
+    position: relative;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.accordion-item .accordion-item-desc {
+    display: none;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #444;
+    border-top: 1px dashed #ddd;
+    padding: 20px 30px 30px;
+    box-sizing: border-box;
+}
+
+.accordion-item input[type="checkbox"] {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+
+.accordion-item input[type="checkbox"]:checked ~ .accordion-item-desc {
+    display: block;
+    background-color: white;
+}
+
+.accordion-item
+    input[type="checkbox"]:checked
+    ~ .accordion-item-title
+    .icon:after {
+    content: "-";
+    font-size: 20px;
+}
+
+.accordion-item input[type="checkbox"] ~ .accordion-item-title .icon:after {
+    content: "+";
+    font-size: 20px;
+}
+
+.accordion-item:first-child {
+    margin-top: 0;
+}
+
+.accordion-item .icon {
+    margin-left: 14px;
+}
+
+@media screen and (max-width: 767px) {
+    .accordion {
+        padding: 0 16px;
+    }
+    .accordion h1 {
+        font-size: 22px;
+    }
+}
+
+
+/* Menu desplegable de tienda para las categorias */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Detalles de los productos */
+.flecha_detalles{
+  color: #1666cf;
+}
+
+
+
+
 
 @media (min-width: 576px) {
   .tempaltemo-carousel .h1 { font-size: 1em !important;}

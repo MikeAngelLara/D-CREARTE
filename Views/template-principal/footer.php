@@ -4,7 +4,7 @@
             <div class="row">
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Tienda-Virtual</h2>
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo"><?php echo TITLE?></h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <i class="fa fa-envelope fa-fw"></i>
@@ -16,13 +16,9 @@
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light text-center">Categorías</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">---------</a></li>
-                        <li><a class="text-decoration-none" href="#">---------</a></li>
-                        <li><a class="text-decoration-none" href="#">---------</a></li>
-                        <li><a class="text-decoration-none" href="#">---------</a></li>
-                        <li><a class="text-decoration-none" href="#">---------</a></li>
-                        <li><a class="text-decoration-none" href="#">---------</a></li>
-                        <li><a class="text-decoration-none" href="#">---------</a></li>
+                        <li><a class="text-decoration-none" href="#">Tecnología</a></li>
+                        <li><a class="text-decoration-none" href="#">Superación</a></li>
+                        <li><a class="text-decoration-none" href="#">Cocina</a></li>
                     </ul>
                 </div>
 
@@ -33,7 +29,6 @@
                         <li><a class="text-decoration-none" href="<?php echo BASE_URL . 'principal/shop' ?>">Tienda</a></li>
                         <li><a class="text-decoration-none" href="<?php echo BASE_URL . 'principal/about' ?>">Nosotros</a></li>
                         <li><a class="text-decoration-none" href="<?php echo BASE_URL . 'principal/contactos' ?>">Contactos</a></li>
-                        <li><a class="text-decoration-none" href="#">FAQs</a></li>
                     </ul>
                 </div>
 
@@ -49,11 +44,15 @@
                             <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                         </li>
                         <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/dcreartee/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
                         </li>
+
+                        <!-- Start Footer 
                         <li class="list-inline-item border border-light rounded-circle text-center">
                             <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
                         </li>
+                        -->
+
                     </ul>
                 </div>
             </div>
@@ -64,7 +63,7 @@
                 <div class="row pt-2">
                     <div class="col-12">
                         <p class="text-center text-light">
-                            Copyright &copy; 2024 | D´CREARTE 
+                            <a href="#" class="text-decoration-none" >Copyright</a> &copy; 2024 | D´CREARTE 
                         </p>
                     </div>
                 </div>
@@ -80,5 +79,3 @@
     <script src="<?php echo BASE_URL; ?>assets/js/bootstrap.bundle.min.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/js/templatemo.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/js/custom.js"></script>
-    <script src="<?php echo BASE_URL; ?>assets/js/carrito.js"></script>
-    <!-- End Script -->

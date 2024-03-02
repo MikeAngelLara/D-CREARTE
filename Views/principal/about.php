@@ -24,10 +24,6 @@
         <div class="row text-center pt-5 pb-3">
             <div class="col-lg-6 m-auto">
                 <h1 class="h1"><b>Nuestro servicios</b></h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    Lorem ipsum dolor sit amet.
-                </p>
             </div>
         </div>
         <div class="row">
@@ -62,6 +58,41 @@
         </div>
     </section>
     <!-- End Section -->
+
+
+    <div class="accordion" class="templatemo">
+        <h1 class="h1"><b>Preguntas frecuentes</b></h1>
+        <div class="accordion-item">
+            <input type="checkbox" id="accordion1">
+            <label for="accordion1" class="accordion-item-title"><span class="icon"></span>-------------------------------------------</label>
+            <div class="accordion-item-desc">----------------------------------------------------------------</div>
+        </div>
+
+        <div class="accordion-item">
+            <input type="checkbox" id="accordion2">
+            <label for="accordion2" class="accordion-item-title"><span class="icon"></span>------------------------------</label>
+            <div class="accordion-item-desc">-------------------------------------------------</div>
+        </div>
+
+        <div class="accordion-item">
+            <input type="checkbox" id="accordion3">
+            <label for="accordion3" class="accordion-item-title"><span class="icon"></span>-----------------------------</label>
+            <div class="accordion-item-desc">---------------------------------------</div>
+        </div>
+
+        <div class="accordion-item">
+            <input type="checkbox" id="accordion4">
+            <label for="accordion4" class="accordion-item-title"><span class="icon"></span>----------------------</label>
+            <div class="accordion-item-desc">----------------------------------------</div>
+        </div>
+
+        <div class="accordion-item">
+            <input type="checkbox" id="accordion5">
+            <label for="accordion5" class="accordion-item-title"><span class="icon"></span>-------------------------</label>
+            <div class="accordion-item-desc">--------------------------</div>
+        </div>
+    </div>
+
 
     <!--      Brands por si en algun momento se necesitan            -->
     <!-- Start Brands -->
