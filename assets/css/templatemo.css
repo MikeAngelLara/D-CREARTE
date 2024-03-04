@@ -271,7 +271,7 @@ body, ul, li, p, a, label, input, div {
 }
 
 
-/* Menu desplegable de tienda para las categorias */
+/* Menu desplegable de usuario */
 
 
 
@@ -282,9 +282,10 @@ body, ul, li, p, a, label, input, div {
 
 
 
-
-
-
+/* modal Carrito */
+#cierre_modal{
+  border: none;
+}
 
 
 

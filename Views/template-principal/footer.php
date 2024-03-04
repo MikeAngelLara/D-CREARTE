@@ -63,7 +63,7 @@
                 <div class="row pt-2">
                     <div class="col-12">
                         <p class="text-center text-light">
-                            <a href="#" class="text-decoration-none" >Copyright</a> &copy; 2024 | D´CREARTE 
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#Login-admin" class="text-decoration-none" >Copyright</a> &copy; 2024 | D´CREARTE
                         </p>
                     </div>
                 </div>
@@ -73,9 +73,35 @@
     </footer>
     <!-- End Footer -->
 
+
+
+<!-- Modal Login Admin -->
+    
+    <div class="modal fade " id="Login-admin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close" style="background: transparent; border:none;">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <!-- Start Script -->
     <script src="<?php echo BASE_URL; ?>assets/js/jquery-1.11.0.min.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/js/bootstrap.bundle.min.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/js/templatemo.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/js/custom.js"></script>
+    <script src="<?php echo BASE_URL; ?>assets/js/menus-desplegables.js"></script>
