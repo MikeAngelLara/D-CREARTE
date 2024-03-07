@@ -77,24 +77,28 @@
 
 <!-- Modal Login Admin -->
     
-    <div class="modal fade " id="Login-admin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="Login-admin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                <h5 class="modal-title" id="exampleModalLabel" style="color: #1666cf;">Login</h5>
                 <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close" style="background: transparent; border:none;">
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                ...
+                <h3>Usuario</h3>
+                <input type="text">
+                <h3>Contraseña</h3>
+                <input type="text"> 
+                <br><br>
+                <a href="">Olvidaste tu contraseña?</a>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Comprar</button>
-            </div>
+                            
             </div>
         </div>
     </div>
+   
 
 
 
@@ -104,4 +108,3 @@
     <script src="<?php echo BASE_URL; ?>assets/js/bootstrap.bundle.min.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/js/templatemo.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/js/custom.js"></script>
-    <script src="<?php echo BASE_URL; ?>assets/js/menus-desplegables.js"></script>

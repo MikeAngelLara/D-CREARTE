@@ -1,9 +1,9 @@
 <?php
-const BASE_URL = "http://localhost/tienda-virtual/";
+const BASE_URL = "http://localhost/D´CREARTE/";
 const HOST = "localhost";
 const USER = "root";
 const PASS = "";
-const DB = "tienda_virtual";
+const DB = "d_crearte";
 const CHARSET = "charset=utf8";
 const TITLE = "D´CREARTE";
 const MONEDA = "USD";

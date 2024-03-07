@@ -9,6 +9,7 @@ class Principal extends Controller
     {
 
     }
+    
     //vista about
     public function about()
     {
@@ -20,7 +21,7 @@ class Principal extends Controller
     public function shop($page)
     {
         $pagina = (empty($page)) ? 1 : $page ;
-        $porPagina = 20;
+        $porPagina = 9;
         $desde = ($pagina - 1) * $porPagina;
         $data['title'] = 'Nuestros Productos';
         $data['productos'] = $this->model->getProductos($desde, $porPagina);
@@ -55,7 +56,7 @@ class Principal extends Controller
             }
         }
         $pagina = (empty($page)) ? 1 : $page ;
-        $porPagina = 15;
+        $porPagina = 9;
         $desde = ($pagina - 1) * $porPagina;
 
         $data['pagina'] = $pagina;
