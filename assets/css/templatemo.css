@@ -130,7 +130,7 @@ body, ul, li, p, a, label, input, div {
 .services-icon-wap:hover {background: #1666cf;}
 /* Contact map */
 .leaflet-control a, .leaflet-control { font-size: 10px !important;}
-.form-control { border: 1px solid #1666cf; box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;}
+.form-control { border: 1px solid #1666cf; box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.30);;}
 /* Footer */
 #tempaltemo_footer a { color: #dcdde1;}
 #tempaltemo_footer a:hover { color: #1666cf;}
@@ -418,18 +418,6 @@ body, ul, li, p, a, label, input, div {
   color: #fff;
   height: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

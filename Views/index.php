@@ -84,7 +84,7 @@
         <div class="row">
             <?php foreach ($data['categorias'] as $categoria){?>
             <div class="col-12 col-md-2 p-5 mt-3">
-                <a href="<?php echo BASE_URL . 'principal/categorias/' . $categoria['id']; ?>"><img src="<?php echo $categoria['imagen']; ?>" class="rounded-circle img-fluid border"></a>
+                <a href="<?php echo BASE_URL . 'principal/categorias/' . $categoria['id']; ?>"><img style="border-radius: 50px;" src="<?php echo $categoria['imagen']; ?>" class="img-fluid border"></a>
                 <h5 class="text-center mt-3 mb-3"><?php echo $categoria['categoria']; ?></h5>
                 <p class="text-center">
                     <a class="btn btn-success" href="<?php echo BASE_URL . 'principal/categorias/' . $categoria['id']; ?>">Ver</a></p>
@@ -109,17 +109,11 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="<?php echo BASE_URL . 'principal/detail/' . $producto['id']; ?>">
-                            <img src="<?php echo $producto['imagen']; ?>" class="card-img-top" alt="<?php echo $producto['nombre']; ?>">
-                        </a>
+                            <img src="<?php echo $producto['imagen']; ?>" class="card-img-top" alt="<?php echo $producto['nombre']; ?>">                                           
+                        </a>  
+                                        
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
                                 <li class="text-muted text-right"><?php echo MONEDA . ' ' . $producto['precio']; ?></li>
                             </ul>
                             <a href="<?php echo BASE_URL . 'principal/detail/' . $producto['id']; ?>" class="h2 text-decoration-none text-dark"><?php echo $producto['nombre']; ?></a>

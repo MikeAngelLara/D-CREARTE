@@ -6,6 +6,6 @@ const PASS = "";
 const DB = "d_crearte";
 const CHARSET = "charset=utf8";
 const TITLE = "D´CREARTE";
-const MONEDA = "USD";
+const MONEDA = "$";
 const CLIENT_ID = "";
 ?>
