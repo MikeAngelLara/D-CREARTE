@@ -99,7 +99,6 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                             <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#login">Iniciar sesión</a></li>
-                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#registro">Registro</a></li>
                         </ul>
                     </div>
                     
@@ -147,41 +146,71 @@
         </div>
     </div>
 
-    <!-- Modal login-->
+    <!-- Modal login / registro-->
     <div class="modal fade " id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog templatema" role="document">
             <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel" style="color: #1666cf;">Login</h5>
-                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close" style="background: transparent; border:none;">
+                <h5 class="text-center" id="exampleModalLabel" style="color: #1666cf;"><?php echo TITLE?></h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close" style="background: transparent; border:none; font-size: 30px;">
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Iniciar sesión</button>
-            </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Modal Registro-->
-    <div class="modal fade " id="registro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel" style="color: #1666cf;">Registro</h5>
-                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close" style="background: transparent; border:none;">
-                <span aria-hidden="true">&times;</span>
-                </button>
+            <div class="templatema">
+            <div class="login-wrap">
+                <div class="login-html">
+                    <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab"><b>Iniciar sesión</b></label>
+                    <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab"><b>Registro</b></label>
+                    
+                    <div class="login-form">
+                        <div class="sign-in-htm">
+                            <div class="group" style="margin-top: 15px;">
+                                <label for="user" class="label">Nombre de usuario</label>
+                                <input id="user" type="text" class="input">
+                            </div>
+                            <div class="group">
+                                <label for="pass" class="label">Contraseña</label>
+                                <input id="pass" type="password" class="input" data-type="password">
+                            </div>
+                            <div class="group">
+                                <input type="submit" class="button" value="Iniciar sesión">
+                            </div>
+                            <div class="hr"></div>
+                            <div class="foot-lnk">
+                                <a href="" style="text-decoration: none; color:white;">Recordar contraseña</a>
+                            </div>
+                        </div>
+
+
+                        <div class="sign-up-htm">
+                            <div class="group">
+                                <label for="user" class="label">Nombre</label>
+                                <input id="user" type="text" class="input">
+                            </div>
+                            <div class="group">
+                                <label for="pass" class="label">Correo</label>
+                                <input id="pass" type="text" class="input">
+                            </div>
+                            <div class="group">
+                                <label for="pass" class="label">Contraseña</label>
+                                <input id="pass" type="password" class="input" data-type="password">
+                            </div>
+                            <div class="group">
+                                <label for="pass" class="label">Repetir Contraseña</label>
+                                <input id="pass" type="password" class="input" data-type="password">
+                            </div>
+                            <div class="group">
+                                <input type="submit" class="button" value="Registrarse">
+                            </div>
+                            <div class="foot-lnk">
+                                <label for="tab-1">Ya tengo un usuario</a>
+                            </div>                    
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Registrarse</button>
             </div>
             </div>
         </div>

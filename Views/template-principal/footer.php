@@ -81,20 +81,21 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel" style="color: #1666cf;">Login</h5>
+                <h5 class="modal-title" id="exampleModalLabel" style="color: #1666cf;"><?php echo TITLE?></h5>
                 <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close" style="background: transparent; border:none;">
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body">
+            <div class="log-admin">
+            <div class="modal-login-admin">
                 <h3>Usuario</h3>
-                <input type="text">
-                <h3>Contraseña</h3>
-                <input type="text"> 
-                <br><br>
-                <a href="">Olvidaste tu contraseña?</a>
+                <input id="user" type="text" class="input">
+                <h3 style="margin-top: 15px;">Contraseña</h3>
+                <input id="pass" type="password" class="input" data-type="password">
+
+                <input type="submit" class="button-login-admin" value="Iniciar sesión">
             </div>
-                            
+            </div>                      
             </div>
         </div>
     </div>
