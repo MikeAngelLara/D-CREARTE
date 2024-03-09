@@ -76,4 +76,10 @@ class Principal extends Controller
         $this->views->getView('principal', "contact", $data);
     }
 
+
+
+
+    //vistas del administrador//
+
+
 }

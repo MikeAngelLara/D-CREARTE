@@ -13,11 +13,11 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_01.jpg" alt="">
+                            <img class="img-fluid" src="./assets/img/banner_img_01.png" alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left align-self-center">
-                                <h1 class="h1 text-success text-center"><b>Curso 1</b></h1>
+                                <h1 class="h1 text-success text-center"><b>Tecnología</b></h1>
                                 <h3 class="h2 text-center">-------------------</h3>
                                 <p style="text-align: justify;">
                                     --------------------------------------
@@ -31,11 +31,11 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_02.jpg" alt="">
+                            <img class="img-fluid" src="./assets/img/banner_img_02.png" alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
-                                <h1 class="h1 text-success text-center"><b>Curso 2</b></h1>
+                                <h1 class="h1 text-success text-center"><b>Superación</b></h1>
                                 <h3 class="h2 text-center">-----------------------------</h3>
                                 <p style="text-align: justify;">
                                     -------------------------------
@@ -49,11 +49,11 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_03.jpg" alt="">
+                            <img class="img-fluid" src="./assets/img/banner_img_03.png" alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
-                                <h1 class="h1 text-success text-center"><b>Curso 3</b></h1>
+                                <h1 class="h1 text-success text-center"><b>Cocina</b></h1>
                                 <h3 class="h2 text-center">-------------------------</h3>
                                 <p style="text-align: justify;">
                                     -----------------------------

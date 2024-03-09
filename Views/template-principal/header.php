@@ -42,7 +42,7 @@
 
 </head>
 
-<body>
+<body> 
 
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light shadow">
@@ -95,13 +95,12 @@
                     <div class="dropdown">
                         <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa fa-fw fa-user mr-3"></i>
-                            <span class="position-absolute top-0 right-100 translate-middle badge rounded-pill bg-light text-dark"></span>
+                            <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                             <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#login">Iniciar sesión</a></li>
                         </ul>
                     </div>
-                    
                 </div>
             </div>
         </div>
