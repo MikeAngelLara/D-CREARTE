@@ -7,7 +7,7 @@ class Principal extends Controller
     }
     public function index()
     {
-
+ 
     }
     
     //vista about

@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Administrador</title>
+        <title>Administrador - Bitácora</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -41,36 +41,36 @@
                 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
-                            <a class="nav-link" href="general.html">
+                            <a class="nav-link" href="general.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 General
                             </a>
 
 
                             <div class="sb-sidenav-menu-heading">Movimientos</div>
-                            <a class="nav-link" href="usuarios.html">
+                            <a class="nav-link" href="usuarios.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Usuarios
                             </a>
-                            <a class="nav-link" href="categorias.html">
+                            <a class="nav-link" href="categorias.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Categorías
                             </a>
-                            <a class="nav-link" href="productos.html">
+                            <a class="nav-link" href="productos.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Productos
                             </a>
-                            <a class="nav-link" href="ventas.html">
+                            <a class="nav-link" href="ventas.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Ventas
                             </a>
-                            <a class="nav-link" href="graficos.html">
+                            <a class="nav-link" href="graficos.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                                 Gráficos
                             </a>
 
                             <div class="sb-sidenav-menu-heading">Respaldos</div>
-                            <a class="nav-link" href="bitacora.html">
+                            <a class="nav-link" href="bitacora.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Bitácora
                             </a>
@@ -90,7 +90,7 @@
                                     </a>
                                     <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
-                                            <a class="nav-link" href="cambiar-contraseña.html">Cambiar contraseña</a>
+                                            <a class="nav-link" href="cambiar-contraseña.php">Cambiar contraseña</a>
                                         </nav>
                                     </div>
                                 </nav>
@@ -99,6 +99,7 @@
                     </div>
                 </nav>
             </div>
+
 
 
 

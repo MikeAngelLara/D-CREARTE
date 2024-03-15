@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Administrador</title>
+        <title>Administrador - Categorías</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -41,36 +41,36 @@
                 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
-                            <a class="nav-link" href="general.html">
+                            <a class="nav-link" href="general.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 General
                             </a>
 
 
                             <div class="sb-sidenav-menu-heading">Movimientos</div>
-                            <a class="nav-link" href="usuarios.html">
+                            <a class="nav-link" href="usuarios.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Usuarios
                             </a>
-                            <a class="nav-link" href="categorias.html">
+                            <a class="nav-link" href="categorias.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Categorías
                             </a>
-                            <a class="nav-link" href="productos.html">
+                            <a class="nav-link" href="productos.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Productos
                             </a>
-                            <a class="nav-link" href="ventas.html">
+                            <a class="nav-link" href="ventas.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Ventas
                             </a>
-                            <a class="nav-link" href="graficos.html">
+                            <a class="nav-link" href="graficos.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                                 Gráficos
                             </a>
 
                             <div class="sb-sidenav-menu-heading">Respaldos</div>
-                            <a class="nav-link" href="bitacora.html">
+                            <a class="nav-link" href="bitacora.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Bitácora
                             </a>
@@ -90,49 +90,43 @@
                                     </a>
                                     <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
-                                            <a class="nav-link" href="cambiar-contraseña.html">Cambiar contraseña</a>
+                                            <a class="nav-link" href="cambiar-contraseña.php">Cambiar contraseña</a>
                                         </nav>
                                     </div>
                                 </nav>
                             </div>
+
+
                         </div>
                     </div>
                 </nav>
             </div>
 
-
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Gráficos</h1>
+                        <h1 class="mt-4">Categorías</h1>
                         <div class="card mb-4">
-                            <div class="card-header">
-                                <i class="fas fa-chart-area me-1"></i>
-                                Area Chart Example
-                            </div>
-                            <div class="card-body"><canvas id="myAreaChart" width="100%" height="30"></canvas></div>
-                            <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="card mb-4">
-                                    <div class="card-header">
-                                        <i class="fas fa-chart-bar me-1"></i>
-                                        Bar Chart Example
-                                    </div>
-                                    <div class="card-body"><canvas id="myBarChart" width="100%" height="50"></canvas></div>
-                                    <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="card mb-4">
-                                    <div class="card-header">
-                                        <i class="fas fa-chart-pie me-1"></i>
-                                        Pie Chart Example
-                                    </div>
-                                    <div class="card-body"><canvas id="myPieChart" width="100%" height="50"></canvas></div>
-                                    <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-                                </div>
+                            <div class="card-body">
+                                <table id="datatablesSimple">
+                                    <thead>
+                                        <tr>
+                                            <th>Nombre</th>
+                                            <th>Descripción</th>
+                                            <th>Fecha de creación</th>
+                                            <th>Productos Disponibles</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>------------</td>
+                                            <td>-------------</td>
+                                            <td>------------</td>
+                                            <td>//</td>
+                                        </tr>                                                       
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
@@ -148,9 +142,7 @@
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
-        <script src="assets/demo/chart-area-demo.js"></script>
-        <script src="assets/demo/chart-bar-demo.js"></script>
-        <script src="assets/demo/chart-pie-demo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+        <script src="js/datatables-simple-demo.js"></script>
     </body>
 </html>

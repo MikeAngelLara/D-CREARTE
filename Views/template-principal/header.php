@@ -163,14 +163,15 @@
                     <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab"><b>Registro</b></label>
                     
                     <div class="login-form">
+                        <form action="IniciarSesion.php" method="POST">
                         <div class="sign-in-htm">
                             <div class="group" style="margin-top: 15px;">
                                 <label for="user" class="label">Nombre de usuario</label>
-                                <input id="user" type="text" class="input">
+                                <input id="user" type="text" name="Usuario" class="input">
                             </div>
                             <div class="group">
                                 <label for="pass" class="label">Contraseña</label>
-                                <input id="pass" type="password" class="input" data-type="password">
+                                <input id="pass" type="text" name="Conraseña" class="input" data-type="password">
                             </div>
                             <div class="group">
                                 <input type="submit" class="button" value="Iniciar sesión">
@@ -180,11 +181,12 @@
                                 <a href="" style="text-decoration: none; color:white;">Recordar contraseña</a>
                             </div>
                         </div>
+                        </form>
 
 
                         <div class="sign-up-htm">
                             <div class="group">
-                                <label for="user" class="label">Nombre</label>
+                                <label for="user" class="label">Nombre de Usuario</label>
                                 <input id="user" type="text" class="input">
                             </div>
                             <div class="group">

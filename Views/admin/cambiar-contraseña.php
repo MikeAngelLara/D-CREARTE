@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Cambiar contraseña</title>
+        <title>Administrador - Cambiar contraseña</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    </head>
+    </head> 
     <body class="bg-primary">
         <div id="layoutAuthentication">
             <div id="layoutAuthentication_content">
@@ -34,7 +34,7 @@
                                                 <label for="inputEmail">Repite contraseña nueva</label>
                                             </div>
                                             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                                <a class="small" href="general.html">Regresar a la vista General</a>
+                                                <a class="small" href="general.php">Regresar a la vista General</a>
                                                 <a class="btn btn-primary" href="#">Cambiar contaseña</a>
                                             </div>
                                         </form>
