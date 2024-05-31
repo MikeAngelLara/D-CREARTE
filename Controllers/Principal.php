@@ -75,10 +75,10 @@ class Principal extends Controller
         $data['title'] = 'Contactos';
         $this->views->getView('principal', "contact", $data);
     }
+   
 
 
-
-
+    
     //vistas del administrador//
 
 

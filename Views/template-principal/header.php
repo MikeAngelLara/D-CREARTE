@@ -145,7 +145,7 @@
         </div>
     </div>
 
-    <!-- Modal login / registro-->
+    <!-- Modal login /   registro-->
     <div class="modal fade " id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog templatema" role="document">
             <div class="modal-content">
@@ -185,6 +185,7 @@
 
 
                         <div class="sign-up-htm">
+
                             <div class="group">
                                 <label for="user" class="label">Nombre de Usuario</label>
                                 <input id="user" type="text" class="input">
@@ -216,3 +217,4 @@
             </div>
         </div>
     </div>
+  
